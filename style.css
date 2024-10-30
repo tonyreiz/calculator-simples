@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:   darkseagreen;
+    display: flex;
+
+}
+
+.centro {
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    display: block;
+    height: 55vh;
+    margin-top: 15rem;
+    border-radius: 5px 4px;
+    box-shadow: 4px 4px black;
+    width: 33vh;
+}
+
+div {
+    padding: .3rem;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-right: 5.7rem;
+    font-size: 1rem;
+    margin-top: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    display: block;
+    margin-right: 7rem;
+    font-size: 1rem;
+    margin-top: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#label{
+    font-size: 1rem;
+    margin-left: .9rem;
+ 
+}
+
+
+button {
+    padding: .1rem;
+    margin-right: 7rem;
+    font-size: .8rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow:2px  black ;
+}
+
+button:hover{
+background-color: #000;
+color: aliceblue;
+cursor: pointer;
+
+}
+select {
+    margin-right: 4.5rem;
+    font-size: .8rem;
+    width: 22.3vh;
+    display: block;
+    margin: auto;
+    padding: .04rem;
+    margin-top:1rem;
+
+}
+
+p {
+    padding: .6rem;
+    border: 2.5px solid #000;
+    width: 21.5vh;
+    padding-right: 11rem;
+    display: block;
+    margin: auto;
+    margin-left: .8rem;
+    border-radius: 4px 4px;
+}
